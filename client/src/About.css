@@ -1,0 +1,59 @@
+.language-dropdown {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.about-us-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-title {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .language-dropdown {
+    position: relative; /* Change position to relative */
+    margin-left: 100px; /* Center the dropdown */
+    margin-right: auto; /* Center the dropdown */
+    text-align: center; /* Center the content */
+  }
+
+  .language-dropdown select {
+    width: 100%; /* Make the select element full width */
+    max-width: 200px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the select */
+  }
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .four.columns {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .greennature-item {
+    text-align: center;
+  }
+
+  .column-service-content-wrapper {
+    margin-top: 20px;
+  }
+
+  .column-service-content {
+    font-size: 14px;
+  }
+}
+
+

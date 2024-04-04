@@ -1,0 +1,42 @@
+/* @media only screen and (max-width: 600px) {
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-email {
+      margin-top: 10px;
+    }
+  } */
+
+.contact-details {
+  display: flex;
+  align-items: center;
+}
+
+.contact-email {
+  margin-left: 10px; /* Add some spacing between phone and email */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .contact-email {
+    margin-left: 0; /* Reset margin for mobile view */
+    margin-top: 5px; /* Add margin to separate phone and email */
+  }
+}
+
+/* Example media query for larger screens */
+@media only screen and (min-width: 601px) {
+  .contact-info {
+    display: flex;
+    align-items: center;
+    width: max-content;
+  }
+  .contact-email {
+    margin-left: 20px; /* Add margin between phone and email */
+  }
+}

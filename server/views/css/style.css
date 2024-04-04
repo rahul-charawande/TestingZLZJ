@@ -1,0 +1,204 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.india-header {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.topheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-details p {
+  margin-bottom: -10px; /* Adjust the value to your desired spacing */
+}
+
+.left-details {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.right-details {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.pan {
+  margin-right: 200px;
+}
+
+.toplogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toplogo .info-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.toplogo .info-column h1 {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.toplogo img {
+  margin-right: 10px;
+}
+
+.certificate-wrap {
+  max-width: 920px;
+  margin: 30px auto;
+  border: 6px solid #000;
+  border-image: linear-gradient(
+      to right,
+      rgb(72, 124, 3),
+      rgba(255, 255, 0, 0.801),
+      rgb(10, 252, 10),
+      #0ff,
+      rgb(46, 206, 131),
+      rgb(145, 255, 0),
+      rgb(7, 141, 3)
+    )
+    1; /*this added*/
+
+  /* border-style: double; */
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-logo img {
+  max-width: 150px;
+}
+
+.certificate-logo {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+
+.certificate-header {
+  margin-top: 10px;
+}
+
+.certificate-header h1 {
+  font-size: 36px;
+  /* margin-bottom: 10px; */
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.certificate-details {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.certificate-details p,
+.certificate-details h3 {
+  text-align: start;
+  margin-left: 40px;
+}
+
+.certificate-details h2 em {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.certificate-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.certificate-details {
+  /* margin-top: 20px; */
+  text-align: center;
+}
+
+/* .certificate-footer { 
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+  color: #555;
+} */
+
+.certificate-footer {
+  margin-left: 500px;
+  margin-top: -10px;
+}
+
+.certificate-footer img {
+  margin-bottom: -5px;
+}
+
+.certificate-foot {
+  display: contents;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rs {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.amount-box {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.certificate-details p,
+.certificate-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.certificate-footer p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+/* CSS styles for toplogo */
+.toplogo {
+  background-color: #f0f0f0; /* Set background color */
+  padding: 8px; /* Add padding to create space around content */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.info-column {
+  margin-left: 20px; /* Add some margin for spacing */
+}
+
+.india-header {
+  color: #333; /* Set text color */
+}

@@ -1,0 +1,36 @@
+
+
+  .dl-menu {
+    display: none; /* Hide the menu by default */
+    /* Add other styles as needed */
+  }
+  
+  .dl-menuopen {
+    display: block; /* Show the menu when this class is applied */
+  }
+
+  .greennature-main-mobile-menu {
+    display: none;
+    background-color: red; /* Add some background color for testing */
+  }
+  
+  .dl-menuopen .greennature-main-mobile-menu {
+    display: block;
+  }
+
+  /* Add this to your Navbar.css file */
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  /* Add other styling as needed */
+}
+
+.menu-visible {
+  display: block;
+}
+
+  

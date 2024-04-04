@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    /* Styles specific to smaller screens go here */
+    .greennature-main-menu {
+      display: none;
+    }
+  
+    .dl-menuwrapper {
+      display: block;
+    }
+  }
+  

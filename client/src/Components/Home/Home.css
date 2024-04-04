@@ -1,0 +1,35 @@
+.heading{
+    font-family: 'Times New Roman';
+    font-size: 64px;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 567px) {
+    .greennature-item.greennature-column-service-item.greennature-type-2-bg {
+      /* Decrease the paddingBottom for mobile view */
+      padding-bottom: 60%;
+    }
+  }
+  
+
+  /* Default style for full screen */
+.greennature-type-2-bg {
+  background-color: #3f3221;
+}
+
+/* Default paddingBottom for full screen */
+.greennature-type-2-bg {
+  padding-bottom: 80%;
+}
+
+/* Style for mobile view */
+@media (max-width: 768px) {
+  .greennature-type-2-bg {
+    background-color: #3f3221;
+    padding-bottom: "40%"; 
+    height: 100px;
+  }
+}
+
+  
